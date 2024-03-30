@@ -1,0 +1,15 @@
+const express = require("express")
+const app = express()
+const cors = require("cors")
+app.use(cors())
+app.use(express.json())
+app.use("/event", require("./routers/eventCreateRoute.js"))
+app.use("/eventBrowse",require("./routers/eventBrowseRoute.js"))
+app.use("/eventRegister",require("./routers/eventRegisterRoute.js"))
+app.use("/eventSignup",require("./routers/eventSignupRoute.js"))
+app.listen(2000, ()=>{
+    console.log("registered")
+})
+app.get("/", (req,res)=>{
+    res.send("welCome")
+})
