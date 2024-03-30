@@ -1,0 +1,31 @@
+.event_link{
+    color:black;
+    text-decoration: none;
+    border-radius: 20px;
+    margin:20px;
+    padding-top:20px;
+    padding-bottom:25px;
+    width:50%;
+    height:70px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform:uppercase;
+    background-color: rgb(105, 52, 250);
+    transition: 0.2s;
+}
+.event_link:hover{
+    color:rgb(105, 52, 250);
+    background-color:white ;
+    outline:3px solid rgb(105, 52, 250);
+}
+.browseDetail {
+    padding-top: 60px;
+object-fit: cover;
+position: relative;
+background-image: url("https://kanopi.com/wp-content/uploads/2019/07/iStock_Education.jpg");
+background-size: 100% 760px;
+background-repeat: no-repeat;
+width:100%;
+padding-bottom:200px;
+}

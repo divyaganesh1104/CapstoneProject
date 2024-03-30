@@ -1,0 +1,12 @@
+.registerEventDiv form div div {
+    margin-bottom:30px;
+}
+.registerEventDiv form div div label {
+    color:blue;
+    margin-bottom:2px;
+}
+.registerEventDiv {
+    border:0.5px solid blue;
+    padding:20px;
+    border-radius: 10px;
+}

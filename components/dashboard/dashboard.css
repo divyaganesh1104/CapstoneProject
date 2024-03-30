@@ -1,0 +1,105 @@
+.dash {
+    background-color: white;
+    padding:30px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(189, 186, 186);
+    position: relative;
+    margin-bottom: 20px;
+}
+.back-dash {
+    background-color: rgb(246, 246, 247);
+    margin-top: -20px;
+    height:600px;
+}
+.dash i {
+    color:rgb(105, 53, 250);
+    background-color: rgb(220, 209, 252);
+    padding:7px;
+    border-radius: 5px;
+}
+.dashboard-body {
+    margin-top:20px;
+}
+.dashboard-body h1{
+    padding-top:20px;
+    margin-bottom:40px;
+}
+
+.dash .link_cls{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dash .link_cls:hover {
+    text-decoration: underline solid black 1px;
+}
+.dash div {
+    font-size: 16px;
+}
+.link_cls_btn{
+    position: absolute;
+    top:20px;
+    right:20px;
+    padding:10px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0.5px solid rgb(189, 186, 186);
+    color: blue;
+    background-color: transparent;
+}
+.link_cls_btn:hover, .link_cls1_btn:hover{
+    background-color: rgba(0, 0, 255,0.1);
+}
+.link_cls1_btn{
+    position: absolute;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 0.5px solid rgb(189, 186, 186);
+    color: blue;
+    background-color: transparent;
+    bottom: 5px;
+    left:36%;
+    padding:5px 80px;
+}
+.reg_board {
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    padding-bottom:50px;
+}
+.reg_border {
+    border: 0.5px solid rgb(189, 186, 186);
+    border-radius: 10px;
+    height:450px;
+}
+.reg_board div div h5 {
+    margin-left:40px;
+    font-size: 12px;
+}
+.reg_board div div {
+    padding:5px 20px 5px 20px;
+    border-bottom: 0.5px solid rgb(189, 186, 186);
+}
+.reg_board div div p {
+    margin-bottom:0px;
+    font-size: 11px;
+}
+#back-dash.back_black {
+    filter: blur(20px);
+}
+#pop {
+    position: absolute;
+    top:7%;
+    left:30%;
+    width:600px;
+    opacity: 0;
+}
+#pop.active{
+    transition: 0.5s;
+    top:12%;
+    opacity: 1;
+}
