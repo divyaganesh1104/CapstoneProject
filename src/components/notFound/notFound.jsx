@@ -2,7 +2,11 @@ import React, { useEffect } from 'react'
 import './notFound.css'
 
 const notFound = () => {
-   
+   useEffect(()=>{
+    let navBar = document.getElementById("navBar")
+    navBar.style.display="none";
+    })
+    
 
   return (
     <>
