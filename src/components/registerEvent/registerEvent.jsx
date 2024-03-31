@@ -43,7 +43,7 @@ const FormBtnData = (e)=>{
   catch(e){
     console.log("Error in forntend",e)
   }
-  navigate(`/dashboard/${FormData.name}`)
+  navigate(`/CapstoneProject/dashboard/${FormData.name}`)
   console.log(FormData)
 }
 console.log(path_data)
