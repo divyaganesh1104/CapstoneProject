@@ -35,7 +35,7 @@ const logIn = () => {
             {
               if((formData.name=="Divya G") & (formData.password=="Divya11.")){
                 sessionStorage.setItem("admin","Divya G")
-                histry("/createEvent")
+                histry("/CapstoneProject/createEvent")
                 toast.info("Admin Authentication Successfull")
               }
               else{
@@ -47,12 +47,12 @@ const logIn = () => {
               console.log(s.name,formData.name)
               if(status=="nor"){
                 
-                  histry("/")
+                  histry("/CapstoneProject/")
                   window.location.reload()
               }
               else if(status=="dashboard"){
                 
-                histry(`/dashboard/${localStorage.getItem("username")}`)
+                histry(`/CapstoneProject/dashboard/${localStorage.getItem("username")}`)
                 window.location.reload()
             }
               else{
@@ -92,7 +92,7 @@ const logIn = () => {
  
   </div>
   <button type="submit" className="btn btn-primary mt-4">Login</button>
-<Link to={`/signUp/${status}`}>Dont have an account?</Link>
+<Link to={`/CapstoneProject/signUp/${status}`}>Dont have an account?</Link>
 </form>
 </div>
     </>

@@ -50,7 +50,7 @@ const navBar = () => {
         <li>{signinData.name}</li>
         <li>{signinData.email}</li>
         <li>{signinData.phone}</li>
-        <li><Link  className="register-link" to={`/dashboard/${userData}`}>Registered Events</Link></li>
+        <li><Link  className="register-link" to={`/CapstoneProject/dashboard/${userData}`}>Registered Events</Link></li>
       </div>
     <li  className='btn-profile' style={{textAlign:"center",marginLeft:"30px"}}>
     <i class="fa-solid fa-right-from-bracket"></i>
@@ -70,19 +70,19 @@ const navBar = () => {
   <div>
     <ul className="navbar-nav mr-auto">
       <li className="nav-item bor">
-        <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link" to="/CapstoneProject/">Home</Link>
       </li>
       <li className="nav-item bor">
-        <Link to="/createEvent" target='_blank' className="nav-link">Create Event</Link>
+        <Link to="/CapstoneProject/createEvent" target='_blank' className="nav-link">Create Event</Link>
       </li>
       <li className="nav-item bor">
-        <Link to="/events" className="nav-link">Events</Link>
+        <Link to="/CapstoneProject/events" className="nav-link">Events</Link>
       </li>
       {!isLoggedIn? (<> <li className="nav-item right bor" style={{marginLeft:"750px"}}>
-        <Link className="nav-link" to="/signUp/nor">signup</Link>
+        <Link className="nav-link" to="/CapstoneProject/signUp/nor">signup</Link>
       </li>
       <li className="nav-item right bor">
-        <Link className="nav-link" to="/logIn/nor">login</Link>
+        <Link className="nav-link" to="/CapstoneProject/logIn/nor">login</Link>
       </li></>):(<>
         <li className="nav-item right" style={{position:"absolute",right:"200px",marginTop:"7px"}}>
         Welcome, <strong>{userData}</strong>

@@ -131,7 +131,7 @@ const ProfileHtml=()=>{
         {registerData.map((rd)=>{
           return  (<><div className='dash'>
               <div><i class="fa-regular fa-calendar-check"></i> <span>{rd.date}</span></div>
-                <Link className='link_cls' to={`/browseEvent/${rd.event_title}`} target='_blank'>{rd.event_title}</Link>
+                <Link className='link_cls' to={`/CapstoneProject/browseEvent/${rd.event_title}`} target='_blank'>{rd.event_title}</Link>
                 <div><i class="fa-solid fa-location-arrow"  style={{backgroundColor:"transparent"}}></i> <span>{rd.location}</span></div>
                 <div><i class="fa-solid fa-user-group" style={{fontSize:"12px",backgroundColor:"transparent"}}></i> {rd.available} People have registered</div> 
                 <button className='link_cls_btn' onClick={(profilePopUP)=>profile(rd.event_title)}>View and Manage Details</button>

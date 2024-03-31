@@ -5,7 +5,7 @@ import "./browseEventDetail.css"
 
 
 const Data=(props)=>{
-    const path = `/browseEvent/${props.event}`
+    const path = `/CapstoneProject/browseEvent/${props.event}`
     return (<>
     <Link to={path} className='event_link text-center'>{props.event}</Link>
     </>
