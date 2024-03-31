@@ -19,14 +19,14 @@ function App() {
       <BrowserRouter>
       <NavBar/>
       <Routes>
-        <Route path="/signUp/:sign" element={<SignUp/>} />
-        <Route path="/logIn/:log" element={<Login />}/>
-        <Route path="/browseEvent/:event_name" element={<BrowseEvent />}/>
-        <Route path="/RegisterEvent/:event_title" element={<RegisterEvent />}/>
-        <Route path="/events" element={<BrowseEventDetail />}/>
-        <Route path="/createEvent" element={<CreateEvent />}/>
-        <Route path="/dashboard/:reg_name" element={<Dashboard />}/>
-        <Route path="/" element={<Home />}/>
+        <Route path="/CapstoneProject/signUp/:sign" element={<SignUp/>} />
+        <Route path="/CapstoneProject/logIn/:log" element={<Login />}/>
+        <Route path="/CapstoneProject/browseEvent/:event_name" element={<BrowseEvent />}/>
+        <Route path="/CapstoneProject/RegisterEvent/:event_title" element={<RegisterEvent />}/>
+        <Route path="/CapstoneProject/events" element={<BrowseEventDetail />}/>
+        <Route path="/CapstoneProject/createEvent" element={<CreateEvent />}/>
+        <Route path="/CapstoneProject/dashboard/:reg_name" element={<Dashboard />}/>
+        <Route path="/CapstoneProject/" element={<Home />}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
       </BrowserRouter>
