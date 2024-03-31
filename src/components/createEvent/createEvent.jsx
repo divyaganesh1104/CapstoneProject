@@ -75,7 +75,7 @@ const createEvent = () => {
     const navBar = document.getElementById("navBar")
     navBar.style.display="none"
     if(!sessionStorage.getItem("admin")){
-            navigate("/login/eventCreateLogin")
+            navigate("/CapstoneProject/login/eventCreateLogin")
     }
    
   })

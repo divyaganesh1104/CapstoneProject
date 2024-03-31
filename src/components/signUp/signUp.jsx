@@ -28,11 +28,11 @@ const signUp = () => {
         }
         if(status=="nor"){
           console.log(status)
-            histry("/")
+            histry("/CapstoneProject/")
             window.location.reload()
         }
         else{
-          histry(`/RegisterEvent/${status}`)
+          histry(`/CapstoneProject/RegisterEvent/${status}`)
             window.location.reload()
         }
       }

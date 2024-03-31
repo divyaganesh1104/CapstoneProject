@@ -42,14 +42,14 @@ const event1 = params.event_name
       )
     
     }
-    const path="/registerEvent"
+    const path="/CapstoneProject/registerEvent"
     const registerBtn=()=>{
       const link_href=path+"/"+er.event_title
       if(localStorage.getItem("username")){
           navigate(link_href)
       }
       else{
-        navigate(`/logIn/${er.event_title}`)
+        navigate(`/CapstoneProject/logIn/${er.event_title}`)
       }
     }
     return (

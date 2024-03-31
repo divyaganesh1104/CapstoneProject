@@ -24,7 +24,7 @@ const dashboard = () => {
     const navigate = useNavigate()
     useEffect(()=>{
       if(!localStorage.getItem("username")){
-        navigate("/login/dashboard")
+        navigate("/CapstoneProject/login/dashboard")
       }   
         fetch("http://localhost:2000/eventRegister/get")
       .then((res) =>res.json())
