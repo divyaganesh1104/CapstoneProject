@@ -49,7 +49,7 @@ const navBar = () => {
       <div className='col-7 sida'>
         <li>{signinData.name}</li>
         <li>{signinData.email}</li>
-        <li>{signinData.phone}</li>
+        <li style={{fontSize:"14px"}}>+91{signinData.phone}</li>
         <li><Link  className="register-link" to={`/CapstoneProject/dashboard/${userData}`}>Registered Events</Link></li>
       </div>
     <li  className='btn-profile' style={{textAlign:"center",marginLeft:"30px"}}>
